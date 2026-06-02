@@ -1,0 +1,17 @@
+﻿.venv/
+resume/newenv/
+newenv/
+
+__pycache__/
+**/__pycache__/
+*.pyc
+
+.env
+**/.env
+
+node_modules/
+
+dist/
+build/
+
+.vscode/

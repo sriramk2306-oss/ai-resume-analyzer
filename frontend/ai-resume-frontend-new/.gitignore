@@ -1,0 +1,29 @@
+# Python
+.venv/
+newenv/
+**/newenv/
+__pycache__/
+**/__pycache__/
+*.pyc
+
+# Environment variables
+.env
+**/.env
+
+# Node
+node_modules/
+
+# Build files
+dist/
+build/
+
+# Uploads
+uploads/
+
+# VS Code
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
+what does this tell ?
