@@ -9,6 +9,10 @@ import os
 app = Flask(__name__)
 CORS(app)
 
+@app.route("/")
+def home():
+    return {"status": "Backend Running"}
+
 
 @app.route("/analyze", methods=["POST"])
 def analyze():
