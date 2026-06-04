@@ -93,7 +93,7 @@ export default function App() {
               formData.append("job_description", jobDesc);
 
               try {
-                const res = await fetch("http://localhost:5001/analyze", {
+                const res = await fetch("https://ai-resume-analyzer-production-3974.up.railway.app/analyze", {
                   method: "POST",
                   body: formData,
                 });
